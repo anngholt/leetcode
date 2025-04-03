@@ -12,3 +12,8 @@ class Solution(object):
             else:
                 left = mid + 1
         return left
+# Ensure this only runs when the script is executed directly
+if __name__ == "__main__":
+    nums = [1,2,3,1]
+    sol = Solution() # instance of a class
+    print("OUTPUT: ", sol.findPeakElement(nums))
